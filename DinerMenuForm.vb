@@ -2,9 +2,11 @@
 'RCET0265
 'Fall 2020
 'Diner Menu Form
+'https://github.com/colelane/DinerMenu.git
 
 Public Class DinerMenuForm
 
+    'The follwing subs are basically saying "If (button) is clicked then do this"
 
     Private Sub SoupButton_Click(sender As Object, e As EventArgs) Handles SoupButton.Click
         DisplaySpecialLabel.Text = "Mystery Meat Soup"
@@ -21,10 +23,6 @@ Public Class DinerMenuForm
 
     Private Sub ExitButton_Click(sender As Object, e As EventArgs) Handles ExitButton.Click
         Me.Close()
-
-    End Sub
-
-    Private Sub DisplayDinerName_Click(sender As Object, e As EventArgs) Handles DisplayDinerName.Click
-
+        'closes form.
     End Sub
 End Class
