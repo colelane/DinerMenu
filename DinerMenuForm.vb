@@ -1,4 +1,9 @@
-﻿Public Class DinerMenuForm
+﻿'Lane Coleman
+'RCET0265
+'Fall 2020
+'Diner Menu Form
+
+Public Class DinerMenuForm
 
 
     Private Sub SoupButton_Click(sender As Object, e As EventArgs) Handles SoupButton.Click
